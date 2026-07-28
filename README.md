@@ -1,27 +1,24 @@
 # 🛍️ PriceLens
 
-PriceLens is a modern MERN Stack web application that helps users compare product prices from multiple e-commerce platforms in one place. It provides a clean, responsive interface with powerful search and filtering features, making it easier to find the best deals online.
+PriceLens is a full-stack web application that enables users to search and compare product prices through a modern, responsive interface. The application provides secure user authentication, efficient product management, and a seamless user experience using modern web technologies.
 
-## 🚀 Live Demo
+---
+## 🌐 Live Demo
 https://pricelenss.vercel.app/
 
-
-🌐 **GitHub Repository:** 
-vijaykr2004/PriceLens.git
+**GitHub Repository:**  
+https://github.com/vijaykr2004/PriceLens
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- 🔍 Search products by name
-- 💰 Compare prices across different stores
-- 📱 Responsive UI for mobile and desktop
-- ⚡ Fast and user-friendly interface
-- 🔐 User authentication (JWT)
-- 👤 User profile management
-- ❤️ Wishlist/Favorites (if implemented)
-- 📊 Product details page
-- 🌙 Modern and clean UI
+- 🔍 Search and compare product prices
+- 👤 Secure user registration and login using Firebase Authentication
+- 📦 Product search, filtering, and detailed product pages
+- 🔄 Store and manage product and user data using Cloud Firestore
+- 📱 Fully responsive design for desktop and mobile devices
+- ⚡ Fast and intuitive user experience
 
 ---
 
@@ -32,25 +29,29 @@ vijaykr2004/PriceLens.git
 - Vite
 - Tailwind CSS
 - Axios
-- React Router
+- React Router DOM
 
 ### Backend
 - Node.js
 - Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
-- bcrypt.js
+- RESTful APIs
+
+### Database & Authentication
+- Firebase Authentication
+- Cloud Firestore
+
+### Version Control
+- Git
+- GitHub
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 PriceLens/
-│
-├── client/          # React Frontend
-├── server/          # Node.js Backend
+├── client/
+├── server/
 ├── README.md
 └── package.json
 ```
@@ -59,19 +60,19 @@ PriceLens/
 
 ## ⚙️ Installation
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/vijaykr2004/PriceLens.git
 ```
 
-### Navigate to the project
+### Navigate to the Project
 
 ```bash
 cd PriceLens
 ```
 
-### Install dependencies
+### Install Dependencies
 
 #### Frontend
 
@@ -91,41 +92,45 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
+## 🔐 Environment Variables
 
-Create a `.env` file inside the server folder.
+Create a `.env` file inside the **server** directory.
 
 ```env
 PORT=5000
 
-MONGO_URI=your_mongodb_connection_string
-
-JWT_SECRET=your_secret_key
+FIREBASE_API_KEY=your_api_key
+FIREBASE_AUTH_DOMAIN=your_auth_domain
+FIREBASE_PROJECT_ID=your_project_id
+FIREBASE_STORAGE_BUCKET=your_storage_bucket
+FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+FIREBASE_APP_ID=your_app_id
 ```
 
 ---
 
 ## 📸 Screenshots
 
-Add screenshots here.
+Add screenshots of the application here.
 
-```
+```text
 screenshots/
 ├── home.png
+├── login.png
 ├── search.png
 ├── product-details.png
 ```
 
 ---
 
-## 📌 Future Improvements
+## 📈 Future Enhancements
 
-- AI-based product recommendations
-- Price history graph
-- Email price-drop alerts
-- Admin Dashboard
-- Product reviews & ratings
-- Multi-language support
+- 🔔 Price drop notifications
+- ❤️ Wishlist functionality
+- 🤖 AI-powered product recommendations
+- ⭐ Product reviews and ratings
+- 🛠️ Admin dashboard
+- 🌙 Dark mode
 
 ---
 
@@ -133,32 +138,26 @@ screenshots/
 
 Contributions are welcome!
 
-1. Fork the repository
-2. Create a new branch
+1. Fork the repository.
+2. Create a feature branch.
 
 ```bash
 git checkout -b feature-name
 ```
 
-3. Commit your changes
+3. Commit your changes.
 
 ```bash
-git commit -m "Added new feature"
+git commit -m "Add new feature"
 ```
 
-4. Push to your branch
+4. Push to GitHub.
 
 ```bash
 git push origin feature-name
 ```
 
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+5. Open a Pull Request.
 
 ---
 
@@ -166,10 +165,11 @@ This project is licensed under the MIT License.
 
 **Vijay Kumar Gupta**
 
-
-- GitHub: https://github.com/vijaykr2004
-- LinkedIn: https://www.linkedin.com/in/vijaykumargupta0007/
+- **GitHub:** https://github.com/vijaykr2004
+- **LinkedIn:** https://www.linkedin.com/in/vijaykumargupta0007/
 
 ---
 
-⭐ If you like this project, don't forget to **Star** the repository!
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a **Star** on GitHub!
